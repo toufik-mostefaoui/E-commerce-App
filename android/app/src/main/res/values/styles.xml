@@ -16,13 +16,13 @@
     </style>
 
     <!-- Your Facebook App ID (from developers.facebook.com) -->
-    <string name="facebook_app_id">1314398007012075</string>
+    <string name="facebook_app_id"></string>
 
     <!-- This tells Android which URI scheme to intercept -->
-    <string name="fb_login_protocol_scheme">fb1314398007012075</string>
+    <string name="fb_login_protocol_scheme"></string>
 
     <!-- Facebook “client token” (also in your FB app settings) -->
-    <string name="facebook_client_token">c6e9c156501ee9941fe87b22278d41f4</string>
+    <string name="facebook_client_token"></string>
 
     <string name="app_name">ecommerce-app</string>
 </resources>
