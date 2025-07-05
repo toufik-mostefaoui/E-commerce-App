@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash screen shown before Flutter initializes -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- Use white -->
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+    <!-- Theme applied after Flutter initializes -->
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@android:color/white</item>
+        <!-- Stay white until Flutter draws -->
+    </style>
+
+    <!-- Your Facebook App ID (from developers.facebook.com) -->
+    <string name="facebook_app_id">1314398007012075</string>
+
+    <!-- This tells Android which URI scheme to intercept -->
+    <string name="fb_login_protocol_scheme">fb1314398007012075</string>
+
+    <!-- Facebook “client token” (also in your FB app settings) -->
+    <string name="facebook_client_token">c6e9c156501ee9941fe87b22278d41f4</string>
+
+    <string name="app_name">ecommerce-app</string>
+</resources>
